@@ -81,40 +81,39 @@ Repository of papers reviewed in the paper "Artificial Intelligence in the field
 
 # Datasets
 ## Legal Judgment Prediction
-- CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction [Paper]() [Datase]
-- CAIL2019-SCM: A Dataset of Similar Case Matching in Legal Domain []
-- ILDC for CJPE: Indian Legal Documents Corpus for Court Judgment Prediction and Explanation []
-- Multi-label legal document classification: A deep learning-based approach with label-attention and domain-specific pre-training []
-- HLDC: Hindi Legal Documents Corpus []
-- CPEE: Civil Case Judgment Prediction centering on the Trial Mode of Essential Elements []
-- PILOT: Legal Case Outcome Prediction with Case Law []
-- Japanese tort-case dataset for rationale-supported legal judgment prediction []
+- CAIL2018 [Paper](https://arxiv.org/abs/1807.02478) [Dataset](https://github.com/china-ai-law-challenge/CAIL2018/tree/27a212c8ddb308727f1c82a86dac0172299138d9)
+- CAIL2019-SCM [Paper](https://arxiv.org/abs/1911.08962) [Dataset](https://github.com/alumik/cail2019)
+- ILDC for CJPE [Paper](https://aclanthology.org/2021.acl-long.313/) [Dataset](https://github.com/Exploration-Lab/CJPE)
+- POSTURE50K [Paper](https://www.sciencedirect.com/science/article/pii/S0306437921000016) [Dataset](https://forms.office.com/Pages/ResponsePage.aspx?id=ZLjMYhpqXUuOHDl97BqCWEQaso-9T_JFiLjD7N8NqbNUMjEyQ0JRTDhGQlM4VVUzS0Q2TFRRWEFCMy4u)
+- HLDC: Hindi Legal Documents Corpus [Paper](https://aclanthology.org/2022.findings-acl.278/) [Dataset](https://github.com/Exploration-Lab/HLDC)
+- CPEE [Paper](https://dl.acm.org/doi/10.1145/3511808.3557273) [Dataset](https://github.com/LiliizZ/CPEE/blob/main/CPEE_dataset.zip)
+- ECHR2023 [Paper](https://aclanthology.org/2024.naacl-long.34/) [Dataset](https://github.com/windszzlang/Legal-AI-PILOT)
+- Japanese tort-case dataset [Paper](https://link.springer.com/article/10.1007/s10506-024-09402-0) [Dataset](https://www.gsk.or.jp/catalog/gsk2024-a)
 
 ## Legal Document Segmentation and Classification
-- A Corpus for Multilingual Analysis of Online Terms of Service []
-- VICTOR: a Dataset for Brazilian Legal Documents Classification []
-- Large-scale multi-label text classification on EU legislation []
-- Unfair clause detection in terms of service across multiple languages []
+- Terms of Service (ToS) [Paper](https://aclanthology.org/2021.nllp-1.1/) [Dataset](http://claudette.eui.eu/ToS.zip)
+- VICTOR [Paper]() [Dataset](https://ailab.unb.br/victor/lrec2020)
+- EURLEX57K [Paper](https://aclanthology.org/P19-1636/) [Dataset](http://nlp.cs.aueb.gr/software_and_datasets/EURLEX57K/)
+- Multilang-ToS [Paper](https://link.springer.com/article/10.1007/s10506-024-09398-7) [Dataset](https://github.com/lt-nlp-lab-unibo/Multilingual-Unfair-Clause-Detection)
 
 ## Legal Text Summarization
-- BillSum: A Corpus for Automatic Summarization of US Legislation []
-- Summarization of German Court Rulings []
-- MILDSum: A Novel Benchmark Dataset for Multilingual Summarization of Indian Legal Case Judgments []
-- Everything Has a Cause: Leveraging Causal Inference in Legal Text Analysis []
+- BillSum [Paper](https://aclanthology.org/D19-5406/) [Dataset](https://github.com/FiscalNote/BillSum)
+- LegalSum [Paper](https://aclanthology.org/2021.nllp-1.19/) [Dataset](https://www.dropbox.com/s/23mrviv5396rdl0/LegalSum.zip?dl=0)
+- MILDSum: A Novel Benchmark Dataset for Multilingual Summarization of Indian Legal Case Judgments [Paper](https://aclanthology.org/2023.emnlp-main.321/) [Dataset](https://github.com/Law-AI/MILDSum)
+- CLSum [Paper](https://aclanthology.org/2021.naacl-main.155/) [Dataset](https://huggingface.co/datasets/Shuaiqi/CLSum)
 
 ## Legal Information Retrieval
-- Context-aware legal citation recommendation using deep learning []
-- Neural Legal Judgment Prediction in English []
-- Paragraph-level Rationale Extraction through Regularization: A case study on European Court of Human Rights Cases []
-- LeCaRD: A Legal Case Retrieval Dataset for Chinese Law System []
-- When Does Pretraining Help: Assessing Self-Supervised Learning for Law and the CaseHOLD Dataset []
-- LeSICiN: A Heterogeneous Graph-based Approach for Automatic LSI from Indian Legal Documents []
-- MUSER: A Multi-View Similar Case Retrieval Dataset []
-- Attentive deep neural networks for legal document retrieval []
-- Overview of Benchmark Datasets and Methods for the Legal Information Extraction/Entailment Competition (COLIEE) 2024 []
+- BVA [Paper](https://dl.acm.org/doi/10.1145/3462757.3466066) [Dataset](https://drive.google.com/drive/folders/12lAd8Os7VFeqbTKi4wcqJqODjHIn0-yQ)
+- ECtHR [Paper](https://aclanthology.org/P19-1424/) [Dataset](https://archive.org/details/ECHR-ACL2019)
+- LeCaRD [Paper](https://dl.acm.org/doi/10.1145/3404835.3463250) [Dataset](https://github.com/myx666/LeCaRD)
+- CaseHOLD [Paper](https://dl.acm.org/doi/10.1145/3462757.3466088) [Dataset](https://github.com/reglab/casehold)
+- ILSI [Paper](https://aaai.org/papers/11139-lesicin-a-heterogeneous-graph-based-approach-for-automatic-legal-statute-identification-from-indian-legal-documents/) [Dataset](https://zenodo.org/records/6053791)
+- MUSER [Paper](https://dl.acm.org/doi/10.1145/3583780.3615125) [Dataset](https://github.com/THUlawtech/MUSER)
+- Attentive deep neural networks for legal document retrieval [Paper](https://link.springer.com/article/10.1007/s10506-022-09341-8) Dataset: NA
+- COLIEE 2024 [Paper](https://link.springer.com/chapter/10.1007/978-981-97-3076-6_8) Dataset: Available to participants
 
 ## Benchmarking
-- LexGLUE: A Benchmark Dataset for Legal Language Understanding in English []
-- Pile of Law: Learning Responsible Data Filtering from the Law and a 256GB Open-Source Legal Dataset []
-- MultiLegalPile: A 689GB Multilingual Legal Corpus []
-- LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models []
+- LexGLUE [Paper](https://aclanthology.org/2022.acl-long.297/) [Dataset](https://github.com/coastalcph/lex-glue)
+- Pile of Law [Paper](https://dl.acm.org/doi/10.5555/3600270.3602389) [Dataset](https://huggingface.co/datasets/pile-of-law/pile-of-law)
+- MultiLegalPile [Paper](https://aclanthology.org/2024.acl-long.805/) [Dataset](https://huggingface.co/datasets/joelito/Multi_Legal_Pile)
+- LegalBench [Paper](https://dl.acm.org/doi/10.5555/3666122.3668037) [Dataset](https://github.com/HazyResearch/legalbench/)
